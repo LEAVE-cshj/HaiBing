@@ -1,0 +1,22 @@
+,"[1]_[('id', <DataTypes.REAL_VALUED: 0>, <InputTypes.ID: 4>), ('date', <DataTypes.DATE: 2>, <InputTypes.TIME: 5>), ('extend', <DataTypes.REAL_VALUED: 0>, <InputTypes.TARGET: 0>), ('days_from_start', <DataTypes.REAL_VALUED: 0>, <InputTypes.STATIC_INPUT: 3>), ('month', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('sst_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('air_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('dlwrf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('dswrf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('prate_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('runof_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('csdlf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('csdsf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('uswrf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('shum_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('cat_id', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>)]_0.1_5_160_[0]_14_[0]_[1]_0.001_0.01_128_expt_settings/outputs/saved_models/icemonly/fixed_5_12_100_4_1_1_[1]_24"
+dropout_rate,0.1
+hidden_layer_size,160
+learning_rate,0.001
+max_gradient_norm,0.01
+minibatch_size,128
+model_folder,expt_settings/outputs/saved_models/icemonly/fixed
+num_heads,4
+stack_size,1
+total_time_steps,24
+num_encoder_steps,12
+num_epochs,100
+early_stopping_patience,5
+multiprocessing_workers,5
+column_definition,"[('id', <DataTypes.REAL_VALUED: 0>, <InputTypes.ID: 4>), ('date', <DataTypes.DATE: 2>, <InputTypes.TIME: 5>), ('extend', <DataTypes.REAL_VALUED: 0>, <InputTypes.TARGET: 0>), ('days_from_start', <DataTypes.REAL_VALUED: 0>, <InputTypes.STATIC_INPUT: 3>), ('month', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('sst_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('air_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('dlwrf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('dswrf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('prate_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('runof_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('csdlf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('csdsf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('uswrf_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('shum_avg', <DataTypes.REAL_VALUED: 0>, <InputTypes.OBSERVED_INPUT: 1>), ('cat_id', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>)]"
+input_size,14
+output_size,1
+category_counts,[1]
+input_obs_loc,[0]
+static_input_loc,[1]
+known_regular_inputs,[1]
+known_categorical_inputs,[0]
