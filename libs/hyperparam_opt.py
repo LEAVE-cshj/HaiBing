@@ -312,7 +312,7 @@ class DistributedHyperparamOptManager(HyperparamOptManager):
   def optimisation_completed(self):
     return False if self.worker_search_queue else True
 
-  def get_next_parameters(self):
+  def get_next_parameters(self, worker_number):
     """Returns next dictionary of hyperparameters to optimise."""
     param_name = self.worker_search_queue.pop()
 
